@@ -1,0 +1,57 @@
+PATH
+  remote: .
+  specs:
+    blank-tweet (0.0.1)
+      oauth
+      sinatra
+      string-pad
+      twitter (~> 5.13.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    buftok (0.2.0)
+    equalizer (0.0.9)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    http (0.6.3)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
+    json (1.8.3)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    multipart-post (2.0.0)
+    naught (1.0.0)
+    oauth (0.4.7)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rake (10.5.0)
+    simple_oauth (0.3.1)
+    sinatra (1.4.5)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    string-pad (0.0.2)
+    thread_safe (0.3.5)
+    tilt (1.4.1)
+    twitter (5.13.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.6.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  blank-tweet!
+  bundler (~> 1.7)
+  rake (~> 10.0)
