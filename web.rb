@@ -14,7 +14,7 @@ enable :sessions
 get '/' do
   <<HTML
 <!DOCTYPE html>
-<html><head><title>Blank Tweet</title></head><body style="font-size: 100px"><a href="/oauth/auth">make a blank tweet</a></body></html>
+<html><head><title>Blank Tweet</title></head><body style="font-size: 100px"><a href="/oauth/auth">tweet a blank tweet</a></body></html>
 HTML
 end
 
