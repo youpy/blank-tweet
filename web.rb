@@ -14,7 +14,7 @@ enable :sessions
 get '/' do
   <<HTML
 <!DOCTYPE html>
-<html><head><title>Blank Tweet</title></head><body style="font-size: 100px"><a href="/oauth/auth">tweet a blank tweet</a></body></html>
+<html><head><title>Blank Tweet</title></head><body style="font-size: 100px"><a href="/oauth/auth">tweet</a> a <a href="https://twitter.com/search?f=tweets&vertical=default&q=%E2%81%A4%E2%81%A6%E2%81%A3%E2%81%A4%E2%81%AA%E2%81%A1%E2%81%A3%E2%81%A2%E2%81%A2%E2%81%A3%E2%81%A3%E2%81%A3%E2%81%A9%E2%81%A6%E2%80%8B%E2%81%A2%E2%81%A4%E2%81%AA%E2%81%A9%E2%80%8D%E2%81%A2%E2%81%A8%E2%81%AE%E2%81%A6%E2%80%8C%E2%81%AE%E2%80%8D%E2%80%8C%E2%81%A7%E2%81%A7%E2%81%AA%E2%80%8C%E2%81%A7%E2%81%A7%E2%81%A7%E2%81%A4%E2%80%8D%E2%80%8C%E2%81%AC%E2%81%A7%E2%81%A0%E2%81%A0%E2%81%A8%E2%81%AE%E2%80%8B%E2%80%8B%E2%81%A4%E2%81%AF%E2%81%AF">blank tweet</a></body></html>
 HTML
 end
 
