@@ -1,30 +1,12 @@
-# Blank::Tweet
+# Blank Tweet
 
-TODO: Write a gem description
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'blank-tweet'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install blank-tweet
-
-## Usage
-
-TODO: Write usage instructions here
+A ruby/sinatra app for tweeting a blank tweet on Twitter
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/blank-tweet/fork )
+1. Fork it ( https://github.com/youpy/blank-tweet/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
