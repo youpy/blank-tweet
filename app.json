@@ -2,5 +2,13 @@
   "name": "Blank Tweet",
   "description": "A ruby/sinatra app for tweeting a blank tweet on Twitter",
   "repository": "https://github.com/youpy/blank-tweet",
-  "keywords": ["sinatra", "ruby", "web", "twitter"]
+  "keywords": ["sinatra", "ruby", "web", "twitter"],
+  "env": {
+    "BLANK_TWEET_OAUTH_CONSUMER_KEY": {
+      "description": "Consumer key of your Twitter app"
+    },
+    "BLANK_TWEET_OAUTH_CONSUMER_SECRET": {
+      "description": "Consumer secret of your Twitter app"
+    }
+  }
 }
