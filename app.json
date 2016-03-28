@@ -1,0 +1,6 @@
+{
+  "name": "Blank Tweet",
+  "description": "A ruby/sinatra app for tweeting a blank tweet on Twitter",
+  "repository": "https://github.com/youpy/blank-tweet",
+  "keywords": ["sinatra", "ruby", "web", "twitter"]
+}
