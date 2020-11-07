@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "twitter", "~> 5.13.0"
   spec.add_dependency "string-pad"
 
-  spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "bundler", "~> 2.1.4"
   spec.add_development_dependency "rake", "~> 10.0"
 end
